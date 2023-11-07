@@ -1,0 +1,27 @@
+Hacer un router para la ruta /students
+
+En el archivo students.js pegar el siguiente array
+
+let students = [
+    {
+        id: 1,
+        name: "Gabriel"
+    },
+    {
+        id: 2,
+        name: "Manuel"
+    },
+    {
+        id: 3,
+        name: "Julia"
+    },
+    {
+        id: 4,
+        name: "Lucía"
+    },
+]
+
+Hacer una ruta que me traiga todos los estudiantes
+Agregar funcionalidad a esa misma ruta para que trabaje con query y me devuelva el alumno correspondiente al hacerle una request a esta ruta http://localhost:3001/students?name=Julia
+Hacer un ruta que cree un nuevo alumno
+Hacer una ruta que busque un alumno por id y si existe me lo devuelva, sino me devuelva un error
